@@ -1,0 +1,154 @@
+/*Text styling*/
+
+h1, h2, h3 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    font-size: 40pt;
+    line-height: 1.375;
+    font-weight: 700;
+    text-align: center;
+}
+
+h2 {
+    font-size: 18pt;
+    font-weight: 700;
+    font-style: normal;
+    font-variant: normal;
+    color:#f1562d;
+}
+
+h3 {
+    font-size: 18pt;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    color:#562c2c;
+}
+
+ul, li {
+    display: block;
+    text-decoration: none;
+    color:#562c2c;
+    font-size: 11pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 11pt;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    color:#562c2c;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Body*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #f4debb;
+    margin: 0;
+}  
+
+nav {
+    bottom: 0;
+    left: 0;
+    width: 375px;
+    height: 40px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    justify-content: flex-start;
+    background-color:#197484;
+}
+
+.flex-container {
+    display: flex;
+    width: 375px;
+    height: 60px;
+    padding: 20px;
+    color: #f4debb; 
+    background-color: #197484;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+  
+.flex-container > div {
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 12px;
+    margin-top: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 375px;
+    height: auto;
+    overflow: hidden;
+    margin-left: 6px;
+    align-items: center;
+    gap: 2px;
+}
+
+/*Images*/
+
+img {
+    display: block;
+    width: 300px;
+    height: auto;
+    margin-top: 5px;
+}
+
+.center {
+    display: block;
+    margin-left: 40px;
+}
+
+.medium {
+    display: block;
+    width: auto;
+    height: 120px;
+}
+
+.small {
+    display: block;
+    width: 83px;
+    height: auto;
+}
+
+.small2 {
+    display: block;
+    width: auto;
+    height: 80px;
+}
+
+.tiny {
+    display: block;
+    width: 27px;
+    height: auto;
+}
+
+/*Button*/
+
+button {
+    border: none;
+    border-radius: 3px;
+    padding: 4px;
+    text-align: center;
+    text-decoration: none;
+    background-color:#562c2c;
+    color:#f4debb;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*Footer*/
+
+footer {
+    text-align: center;
+    width: 375px;
+}
