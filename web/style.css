@@ -33,6 +33,7 @@ h4 {
     font-style: normal;
     font-variant: normal;
     color:#562c2c;
+    margin: 0;
 }
 
 .aligncenter {
@@ -85,7 +86,7 @@ nav ul {
 }
 
 .wrap {
-    padding: 0 10px;
+    padding: 0 12px;
 }
 
 .flex-container {
@@ -111,7 +112,7 @@ nav ul {
     height: auto;
     overflow: hidden;
     align-items: center;
-    gap: 2px;
+    gap: 5px;
     justify-content: center;
 }
 
@@ -122,10 +123,6 @@ nav ul {
     height: auto;
     justify-content: center;
     align-items: center;
-}
-
-.container2 img {
-    width: 90%;
 }
 
 .column {
