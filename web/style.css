@@ -1,6 +1,6 @@
 /*Text styling*/
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -21,7 +21,16 @@ h2 {
 
 h3 {
     font-size: 18pt;
-    font-weight: 400;
+    font-weight: 500;
+    font-style: normal;
+    font-variant: normal;
+    color:#562c2c;
+    text-align: center;
+}
+
+h4 {
+    font-size: 16pt;
+    font-weight: 600;
     font-style: normal;
     font-variant: normal;
     color:#562c2c;
@@ -52,31 +61,39 @@ body {
     background-repeat: no-repeat;
     background-color: #f4debb;
     margin: 0;
+    padding-bottom: 100px;
 }  
 
 nav {
     bottom: 0;
     left: 0;
-    width: 375px;
-    height: 40px;
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
+    width: 90%;
+    height: 30px;
+    padding: 5%;
     position: fixed;
-    justify-content: flex-start;
     background-color:#197484;
 }
 
-.flex-container {
+nav ul {
     display: flex;
-    width: 375px;
-    height: 60px;
-    padding: 20px;
-    color: #f4debb; 
-    background-color: #197484;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
 }
-  
+
+.wrap {
+    padding: 0 10px;
+}
+
+.flex-container {
+    width: 100%; 
+    background-color: #197484;
+}
+
+.flex-container a img {
+    padding: 20px 0;
+}
+
 .flex-container > div {
     font-size: 40px;
     font-weight: 700;
@@ -87,21 +104,38 @@ nav {
 .container {
     display: flex;
     flex-direction: row;
-    width: 375px;
+    width: 100%;
     height: auto;
     overflow: hidden;
-    margin-left: 6px;
     align-items: center;
     gap: 2px;
+    justify-content: center;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 img {
+    width: 90%;
+}
+
+.column {
+    width: 100%;
+    justify-content: center;
 }
 
 /*Images*/
 
 img {
     display: block;
-    width: 300px;
+    width: 100%;
     height: auto;
-    margin-top: 5px;
 }
 
 .center {
@@ -115,16 +149,16 @@ img {
     height: 120px;
 }
 
-.small {
-    display: block;
-    width: 83px;
-    height: auto;
-}
-
 .small2 {
     display: block;
     width: auto;
     height: 80px;
+}
+
+.small3 {
+    display: block;
+    width: auto;
+    height: 95px;
 }
 
 .tiny {
@@ -133,9 +167,16 @@ img {
     height: auto;
 }
 
+.logo {
+    display: block;
+    width: 300px;
+    height: auto;
+    margin-left: 30px;
+}
+
 /*Button*/
 
-button {
+.button1 {
     border: none;
     border-radius: 3px;
     padding: 4px;
@@ -146,9 +187,22 @@ button {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.button2 {
+    border: 2px solid #562c2c;
+    border-radius: 3px;
+    padding: 4px;
+    text-align: center;
+    text-decoration: none;
+    background-color:#f4debb;
+    color:#562c2c;
+    font-weight: 600;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 37%;
+}
+
 /*Footer*/
 
 footer {
     text-align: center;
-    width: 375px;
+    width: 100%;
 }
